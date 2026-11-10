@@ -1,0 +1,501 @@
+SalesID,OrderID,OrderDate,CustomerID,CustomerName,Segment,City,State,Region,ProductID,ProductName,Category,Quantity,UnitPrice,DiscountPct,Revenue,UnitCost,Cost,Profit,PaymentMethod,SalesChannel
+10001,ORD-10001,2024-01-01,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-001,Wireless Mouse,Electronics,1,29.99,0.0000,29.99,12.00,12.00,17.99,Credit Card,Online
+10002,ORD-10002,2024-01-04,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-014,Webcam HD,Electronics,1,79.00,0.1000,71.10,41.00,41.00,30.10,Bank Transfer,Wholesale
+10003,ORD-10003,2024-01-07,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-007,LED Desk Lamp,Furniture,1,42.50,0.0000,42.50,18.00,18.00,24.50,PayPal,Retail
+10004,ORD-10004,2024-01-10,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-020,Laptop Sleeve,Accessories,1,27.50,0.1500,23.38,11.00,11.00,12.38,Debit Card,Online
+10005,ORD-10005,2024-01-13,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-013,Portable SSD 1TB,Electronics,1,109.00,0.0500,103.55,68.00,68.00,35.55,Credit Card,Wholesale
+10006,ORD-10006,2024-01-16,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-006,Compact Desk,Furniture,1,189.00,0.0000,189.00,110.00,110.00,79.00,Credit Card,Retail
+10007,ORD-10007,2024-01-19,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.1000,10.35,3.75,3.75,6.60,Bank Transfer,Online
+10008,ORD-10008,2024-01-22,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-012,Desktop Calculator,Office Supplies,2,24.00,0.0000,48.00,9.50,19.00,29.00,PayPal,Wholesale
+10009,ORD-10009,2024-01-25,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-005,Ergonomic Chair,Furniture,2,249.00,0.0000,498.00,145.00,290.00,208.00,Debit Card,Retail
+10010,ORD-10010,2024-01-28,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.1000,20.70,3.75,7.50,13.20,Credit Card,Online
+10011,ORD-10011,2024-01-31,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-012,Desktop Calculator,Office Supplies,2,24.00,0.0000,48.00,9.50,19.00,29.00,Credit Card,Wholesale
+10012,ORD-10012,2024-02-03,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-005,Ergonomic Chair,Furniture,2,249.00,0.1500,423.30,145.00,290.00,133.30,Bank Transfer,Retail
+10013,ORD-10013,2024-02-06,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-018,Bookshelf,Furniture,2,129.00,0.0500,245.10,76.00,152.00,93.10,PayPal,Online
+10014,ORD-10014,2024-02-09,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.0000,24.50,5.00,10.00,14.50,Debit Card,Online
+10015,ORD-10015,2024-02-12,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-004,Noise-Canceling Headphones,Electronics,3,129.99,0.1000,350.97,72.00,216.00,134.97,Credit Card,Wholesale
+10016,ORD-10016,2024-02-15,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-017,USB-C Charger,Electronics,3,34.99,0.0000,104.97,15.00,45.00,59.97,Credit Card,Retail
+10017,ORD-10017,2024-02-18,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-010,Gel Pen Pack,Office Supplies,3,8.99,0.0000,26.97,2.50,7.50,19.47,Bank Transfer,Online
+10018,ORD-10018,2024-02-21,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-003,USB-C Hub,Electronics,3,54.99,0.1000,148.47,26.00,78.00,70.47,PayPal,Wholesale
+10019,ORD-10019,2024-02-24,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-017,USB-C Charger,Electronics,3,34.99,0.0000,104.97,15.00,45.00,59.97,Debit Card,Retail
+10020,ORD-10020,2024-02-27,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-010,Gel Pen Pack,Office Supplies,3,8.99,0.1500,22.92,2.50,7.50,15.42,Credit Card,Online
+10021,ORD-10021,2024-03-01,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-003,USB-C Hub,Electronics,3,54.99,0.0500,156.72,26.00,78.00,78.72,Credit Card,Wholesale
+10022,ORD-10022,2024-03-04,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-016,Desk Organizer,Office Supplies,4,22.00,0.0000,88.00,8.00,32.00,56.00,Bank Transfer,Retail
+10023,ORD-10023,2024-03-07,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.1000,66.60,7.00,28.00,38.60,PayPal,Online
+10024,ORD-10024,2024-03-10,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-002,Bluetooth Keyboard,Electronics,4,69.00,0.0000,276.00,32.00,128.00,148.00,Debit Card,Wholesale
+10025,ORD-10025,2024-03-13,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-015,Monitor Stand,Furniture,4,38.00,0.0000,152.00,16.00,64.00,88.00,Credit Card,Retail
+10026,ORD-10026,2024-03-16,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-008,Filing Cabinet,Furniture,4,159.00,0.1000,572.40,98.00,392.00,180.40,Credit Card,Online
+10027,ORD-10027,2024-03-19,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-001,Wireless Mouse,Electronics,4,29.99,0.0000,119.96,12.00,48.00,71.96,Bank Transfer,Online
+10028,ORD-10028,2024-03-22,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-015,Monitor Stand,Furniture,4,38.00,0.1500,129.20,16.00,64.00,65.20,PayPal,Wholesale
+10029,ORD-10029,2024-03-25,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-008,Filing Cabinet,Furniture,5,159.00,0.0500,755.25,98.00,490.00,265.25,Debit Card,Retail
+10030,ORD-10030,2024-03-28,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-001,Wireless Mouse,Electronics,5,29.99,0.0000,149.95,12.00,60.00,89.95,Credit Card,Online
+10031,ORD-10031,2024-03-31,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-014,Webcam HD,Electronics,5,79.00,0.1000,355.50,41.00,205.00,150.50,Credit Card,Wholesale
+10032,ORD-10032,2024-04-03,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-007,LED Desk Lamp,Furniture,5,42.50,0.0000,212.50,18.00,90.00,122.50,Bank Transfer,Retail
+10033,ORD-10033,2024-04-06,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-020,Laptop Sleeve,Accessories,5,27.50,0.0000,137.50,11.00,55.00,82.50,PayPal,Online
+10034,ORD-10034,2024-04-09,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-013,Portable SSD 1TB,Electronics,5,109.00,0.1000,490.50,68.00,340.00,150.50,Debit Card,Wholesale
+10035,ORD-10035,2024-04-12,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-006,Compact Desk,Furniture,5,189.00,0.0000,945.00,110.00,550.00,395.00,Credit Card,Retail
+10036,ORD-10036,2024-04-15,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.1500,9.78,3.75,3.75,6.03,Credit Card,Online
+10037,ORD-10037,2024-04-18,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-013,Portable SSD 1TB,Electronics,1,109.00,0.0500,103.55,68.00,68.00,35.55,Bank Transfer,Wholesale
+10038,ORD-10038,2024-04-21,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-006,Compact Desk,Furniture,1,189.00,0.0000,189.00,110.00,110.00,79.00,PayPal,Retail
+10039,ORD-10039,2024-04-24,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.1000,10.35,3.75,3.75,6.60,Debit Card,Online
+10040,ORD-10040,2024-04-27,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-012,Desktop Calculator,Office Supplies,1,24.00,0.0000,24.00,9.50,9.50,14.50,Credit Card,Online
+10041,ORD-10041,2024-04-30,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-005,Ergonomic Chair,Furniture,1,249.00,0.0000,249.00,145.00,145.00,104.00,Credit Card,Wholesale
+10042,ORD-10042,2024-05-03,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-018,Bookshelf,Furniture,1,129.00,0.1000,116.10,76.00,76.00,40.10,Bank Transfer,Retail
+10043,ORD-10043,2024-05-06,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.0000,24.50,5.00,10.00,14.50,PayPal,Online
+10044,ORD-10044,2024-05-09,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-004,Noise-Canceling Headphones,Electronics,2,129.99,0.1500,220.98,72.00,144.00,76.98,Debit Card,Wholesale
+10045,ORD-10045,2024-05-12,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-017,USB-C Charger,Electronics,2,34.99,0.0500,66.48,15.00,30.00,36.48,Credit Card,Retail
+10046,ORD-10046,2024-05-15,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.0000,24.50,5.00,10.00,14.50,Credit Card,Online
+10047,ORD-10047,2024-05-18,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-004,Noise-Canceling Headphones,Electronics,2,129.99,0.1000,233.98,72.00,144.00,89.98,Bank Transfer,Wholesale
+10048,ORD-10048,2024-05-21,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-017,USB-C Charger,Electronics,2,34.99,0.0000,69.98,15.00,30.00,39.98,PayPal,Retail
+10049,ORD-10049,2024-05-24,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.0000,17.98,2.50,5.00,12.98,Debit Card,Online
+10050,ORD-10050,2024-05-27,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-003,USB-C Hub,Electronics,3,54.99,0.1000,148.47,26.00,78.00,70.47,Credit Card,Wholesale
+10051,ORD-10051,2024-05-30,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-016,Desk Organizer,Office Supplies,3,22.00,0.0000,66.00,8.00,24.00,42.00,Credit Card,Retail
+10052,ORD-10052,2024-06-02,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.1500,47.18,7.00,21.00,26.18,Bank Transfer,Online
+10053,ORD-10053,2024-06-05,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-002,Bluetooth Keyboard,Electronics,3,69.00,0.0500,196.65,32.00,96.00,100.65,PayPal,Online
+10054,ORD-10054,2024-06-08,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-015,Monitor Stand,Furniture,3,38.00,0.0000,114.00,16.00,48.00,66.00,Debit Card,Wholesale
+10055,ORD-10055,2024-06-11,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.1000,49.95,7.00,21.00,28.95,Credit Card,Retail
+10056,ORD-10056,2024-06-14,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-002,Bluetooth Keyboard,Electronics,3,69.00,0.0000,207.00,32.00,96.00,111.00,Credit Card,Online
+10057,ORD-10057,2024-06-17,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-015,Monitor Stand,Furniture,4,38.00,0.0000,152.00,16.00,64.00,88.00,Bank Transfer,Wholesale
+10058,ORD-10058,2024-06-20,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-008,Filing Cabinet,Furniture,4,159.00,0.1000,572.40,98.00,392.00,180.40,PayPal,Retail
+10059,ORD-10059,2024-06-23,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-001,Wireless Mouse,Electronics,4,29.99,0.0000,119.96,12.00,48.00,71.96,Debit Card,Online
+10060,ORD-10060,2024-06-26,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-014,Webcam HD,Electronics,4,79.00,0.1500,268.60,41.00,164.00,104.60,Credit Card,Wholesale
+10061,ORD-10061,2024-06-29,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-007,LED Desk Lamp,Furniture,4,42.50,0.0500,161.50,18.00,72.00,89.50,Credit Card,Retail
+10062,ORD-10062,2024-07-02,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-020,Laptop Sleeve,Accessories,4,27.50,0.0000,110.00,11.00,44.00,66.00,Bank Transfer,Online
+10063,ORD-10063,2024-07-05,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-013,Portable SSD 1TB,Electronics,4,109.00,0.1000,392.40,68.00,272.00,120.40,PayPal,Wholesale
+10064,ORD-10064,2024-07-08,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-007,LED Desk Lamp,Furniture,5,42.50,0.0000,212.50,18.00,90.00,122.50,Debit Card,Retail
+10065,ORD-10065,2024-07-11,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-020,Laptop Sleeve,Accessories,5,27.50,0.0000,137.50,11.00,55.00,82.50,Credit Card,Online
+10066,ORD-10066,2024-07-14,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-013,Portable SSD 1TB,Electronics,5,109.00,0.1000,490.50,68.00,340.00,150.50,Credit Card,Online
+10067,ORD-10067,2024-07-17,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-006,Compact Desk,Furniture,5,189.00,0.0000,945.00,110.00,550.00,395.00,Bank Transfer,Wholesale
+10068,ORD-10068,2024-07-20,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.1500,48.88,3.75,18.75,30.13,PayPal,Retail
+10069,ORD-10069,2024-07-23,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-012,Desktop Calculator,Office Supplies,5,24.00,0.0500,114.00,9.50,47.50,66.50,Debit Card,Online
+10070,ORD-10070,2024-07-26,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-005,Ergonomic Chair,Furniture,5,249.00,0.0000,1245.00,145.00,725.00,520.00,Credit Card,Wholesale
+10071,ORD-10071,2024-07-29,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-018,Bookshelf,Furniture,1,129.00,0.1000,116.10,76.00,76.00,40.10,Credit Card,Retail
+10072,ORD-10072,2024-08-01,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.0000,12.25,5.00,5.00,7.25,Bank Transfer,Online
+10073,ORD-10073,2024-08-04,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-005,Ergonomic Chair,Furniture,1,249.00,0.0000,249.00,145.00,145.00,104.00,PayPal,Wholesale
+10074,ORD-10074,2024-08-07,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-018,Bookshelf,Furniture,1,129.00,0.1000,116.10,76.00,76.00,40.10,Debit Card,Retail
+10075,ORD-10075,2024-08-10,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.0000,12.25,5.00,5.00,7.25,Credit Card,Online
+10076,ORD-10076,2024-08-13,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-004,Noise-Canceling Headphones,Electronics,1,129.99,0.1500,110.49,72.00,72.00,38.49,Credit Card,Wholesale
+10077,ORD-10077,2024-08-16,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-017,USB-C Charger,Electronics,1,34.99,0.0500,33.24,15.00,15.00,18.24,Bank Transfer,Retail
+10078,ORD-10078,2024-08-19,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.0000,17.98,2.50,5.00,12.98,PayPal,Online
+10079,ORD-10079,2024-08-22,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-003,USB-C Hub,Electronics,2,54.99,0.1000,98.98,26.00,52.00,46.98,Debit Card,Online
+10080,ORD-10080,2024-08-25,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-016,Desk Organizer,Office Supplies,2,22.00,0.0000,44.00,8.00,16.00,28.00,Credit Card,Wholesale
+10081,ORD-10081,2024-08-28,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-009,Hardcover Notebook Set,Office Supplies,2,18.50,0.0000,37.00,7.00,14.00,23.00,Credit Card,Retail
+10082,ORD-10082,2024-08-31,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-003,USB-C Hub,Electronics,2,54.99,0.1000,98.98,26.00,52.00,46.98,Bank Transfer,Online
+10083,ORD-10083,2024-09-03,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-016,Desk Organizer,Office Supplies,2,22.00,0.0000,44.00,8.00,16.00,28.00,PayPal,Wholesale
+10084,ORD-10084,2024-09-06,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-009,Hardcover Notebook Set,Office Supplies,2,18.50,0.1500,31.45,7.00,14.00,17.45,Debit Card,Retail
+10085,ORD-10085,2024-09-09,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-002,Bluetooth Keyboard,Electronics,3,69.00,0.0500,196.65,32.00,96.00,100.65,Credit Card,Online
+10086,ORD-10086,2024-09-12,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-015,Monitor Stand,Furniture,3,38.00,0.0000,114.00,16.00,48.00,66.00,Credit Card,Wholesale
+10087,ORD-10087,2024-09-15,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-008,Filing Cabinet,Furniture,3,159.00,0.1000,429.30,98.00,294.00,135.30,Bank Transfer,Retail
+10088,ORD-10088,2024-09-18,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-001,Wireless Mouse,Electronics,3,29.99,0.0000,89.97,12.00,36.00,53.97,PayPal,Online
+10089,ORD-10089,2024-09-21,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-014,Webcam HD,Electronics,3,79.00,0.0000,237.00,41.00,123.00,114.00,Debit Card,Wholesale
+10090,ORD-10090,2024-09-24,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-007,LED Desk Lamp,Furniture,3,42.50,0.1000,114.75,18.00,54.00,60.75,Credit Card,Retail
+10091,ORD-10091,2024-09-27,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-001,Wireless Mouse,Electronics,3,29.99,0.0000,89.97,12.00,36.00,53.97,Credit Card,Online
+10092,ORD-10092,2024-09-30,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-014,Webcam HD,Electronics,4,79.00,0.1500,268.60,41.00,164.00,104.60,Bank Transfer,Online
+10093,ORD-10093,2024-10-03,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-007,LED Desk Lamp,Furniture,4,42.50,0.0500,161.50,18.00,72.00,89.50,PayPal,Wholesale
+10094,ORD-10094,2024-10-06,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-020,Laptop Sleeve,Accessories,4,27.50,0.0000,110.00,11.00,44.00,66.00,Debit Card,Retail
+10095,ORD-10095,2024-10-09,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-013,Portable SSD 1TB,Electronics,4,109.00,0.1000,392.40,68.00,272.00,120.40,Credit Card,Online
+10096,ORD-10096,2024-10-12,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-006,Compact Desk,Furniture,4,189.00,0.0000,756.00,110.00,440.00,316.00,Credit Card,Wholesale
+10097,ORD-10097,2024-10-15,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-019,Sticky Notes Bundle,Office Supplies,4,11.50,0.0000,46.00,3.75,15.00,31.00,Bank Transfer,Retail
+10098,ORD-10098,2024-10-18,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-012,Desktop Calculator,Office Supplies,4,24.00,0.1000,86.40,9.50,38.00,48.40,PayPal,Online
+10099,ORD-10099,2024-10-21,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-005,Ergonomic Chair,Furniture,5,249.00,0.0000,1245.00,145.00,725.00,520.00,Debit Card,Wholesale
+10100,ORD-10100,2024-10-24,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.1500,48.88,3.75,18.75,30.13,Credit Card,Retail
+10101,ORD-10101,2024-10-27,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-012,Desktop Calculator,Office Supplies,5,24.00,0.0500,114.00,9.50,47.50,66.50,Credit Card,Online
+10102,ORD-10102,2024-10-30,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-005,Ergonomic Chair,Furniture,5,249.00,0.0000,1245.00,145.00,725.00,520.00,Bank Transfer,Wholesale
+10103,ORD-10103,2024-11-02,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-018,Bookshelf,Furniture,5,129.00,0.1000,580.50,76.00,380.00,200.50,PayPal,Retail
+10104,ORD-10104,2024-11-05,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-011,Printer Paper Ream,Office Supplies,5,12.25,0.0000,61.25,5.00,25.00,36.25,Debit Card,Online
+10105,ORD-10105,2024-11-08,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-004,Noise-Canceling Headphones,Electronics,5,129.99,0.0000,649.95,72.00,360.00,289.95,Credit Card,Online
+10106,ORD-10106,2024-11-11,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-017,USB-C Charger,Electronics,1,34.99,0.1000,31.49,15.00,15.00,16.49,Credit Card,Wholesale
+10107,ORD-10107,2024-11-14,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-010,Gel Pen Pack,Office Supplies,1,8.99,0.0000,8.99,2.50,2.50,6.49,Bank Transfer,Retail
+10108,ORD-10108,2024-11-17,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-003,USB-C Hub,Electronics,1,54.99,0.1500,46.74,26.00,26.00,20.74,PayPal,Online
+10109,ORD-10109,2024-11-20,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-017,USB-C Charger,Electronics,1,34.99,0.0500,33.24,15.00,15.00,18.24,Debit Card,Wholesale
+10110,ORD-10110,2024-11-23,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-010,Gel Pen Pack,Office Supplies,1,8.99,0.0000,8.99,2.50,2.50,6.49,Credit Card,Retail
+10111,ORD-10111,2024-11-26,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-003,USB-C Hub,Electronics,1,54.99,0.1000,49.49,26.00,26.00,23.49,Credit Card,Online
+10112,ORD-10112,2024-11-29,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-016,Desk Organizer,Office Supplies,1,22.00,0.0000,22.00,8.00,8.00,14.00,Bank Transfer,Wholesale
+10113,ORD-10113,2024-12-02,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-009,Hardcover Notebook Set,Office Supplies,2,18.50,0.0000,37.00,7.00,14.00,23.00,PayPal,Retail
+10114,ORD-10114,2024-12-05,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-002,Bluetooth Keyboard,Electronics,2,69.00,0.1000,124.20,32.00,64.00,60.20,Debit Card,Online
+10115,ORD-10115,2024-12-08,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-015,Monitor Stand,Furniture,2,38.00,0.0000,76.00,16.00,32.00,44.00,Credit Card,Wholesale
+10116,ORD-10116,2024-12-11,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-008,Filing Cabinet,Furniture,2,159.00,0.1500,270.30,98.00,196.00,74.30,Credit Card,Retail
+10117,ORD-10117,2024-12-14,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-001,Wireless Mouse,Electronics,2,29.99,0.0500,56.98,12.00,24.00,32.98,Bank Transfer,Online
+10118,ORD-10118,2024-12-17,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-015,Monitor Stand,Furniture,2,38.00,0.0000,76.00,16.00,32.00,44.00,PayPal,Online
+10119,ORD-10119,2024-12-20,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-008,Filing Cabinet,Furniture,2,159.00,0.1000,286.20,98.00,196.00,90.20,Debit Card,Wholesale
+10120,ORD-10120,2024-12-23,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-001,Wireless Mouse,Electronics,3,29.99,0.0000,89.97,12.00,36.00,53.97,Credit Card,Retail
+10121,ORD-10121,2024-12-26,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-014,Webcam HD,Electronics,3,79.00,0.0000,237.00,41.00,123.00,114.00,Credit Card,Online
+10122,ORD-10122,2024-12-29,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-007,LED Desk Lamp,Furniture,3,42.50,0.1000,114.75,18.00,54.00,60.75,Bank Transfer,Wholesale
+10123,ORD-10123,2025-01-01,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-020,Laptop Sleeve,Accessories,3,27.50,0.0000,82.50,11.00,33.00,49.50,PayPal,Retail
+10124,ORD-10124,2025-01-04,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-013,Portable SSD 1TB,Electronics,3,109.00,0.1500,277.95,68.00,204.00,73.95,Debit Card,Online
+10125,ORD-10125,2025-01-07,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-006,Compact Desk,Furniture,3,189.00,0.0500,538.65,110.00,330.00,208.65,Credit Card,Wholesale
+10126,ORD-10126,2025-01-10,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-019,Sticky Notes Bundle,Office Supplies,3,11.50,0.0000,34.50,3.75,11.25,23.25,Credit Card,Retail
+10127,ORD-10127,2025-01-13,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-013,Portable SSD 1TB,Electronics,4,109.00,0.1000,392.40,68.00,272.00,120.40,Bank Transfer,Online
+10128,ORD-10128,2025-01-16,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-006,Compact Desk,Furniture,4,189.00,0.0000,756.00,110.00,440.00,316.00,PayPal,Wholesale
+10129,ORD-10129,2025-01-19,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-019,Sticky Notes Bundle,Office Supplies,4,11.50,0.0000,46.00,3.75,15.00,31.00,Debit Card,Retail
+10130,ORD-10130,2025-01-22,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-012,Desktop Calculator,Office Supplies,4,24.00,0.1000,86.40,9.50,38.00,48.40,Credit Card,Online
+10131,ORD-10131,2025-01-25,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-005,Ergonomic Chair,Furniture,4,249.00,0.0000,996.00,145.00,580.00,416.00,Credit Card,Online
+10132,ORD-10132,2025-01-28,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-018,Bookshelf,Furniture,4,129.00,0.1500,438.60,76.00,304.00,134.60,Bank Transfer,Wholesale
+10133,ORD-10133,2025-01-31,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-011,Printer Paper Ream,Office Supplies,4,12.25,0.0500,46.55,5.00,20.00,26.55,PayPal,Retail
+10134,ORD-10134,2025-02-03,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-004,Noise-Canceling Headphones,Electronics,5,129.99,0.0000,649.95,72.00,360.00,289.95,Debit Card,Online
+10135,ORD-10135,2025-02-06,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-017,USB-C Charger,Electronics,5,34.99,0.1000,157.46,15.00,75.00,82.46,Credit Card,Wholesale
+10136,ORD-10136,2025-02-09,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-011,Printer Paper Ream,Office Supplies,5,12.25,0.0000,61.25,5.00,25.00,36.25,Credit Card,Retail
+10137,ORD-10137,2025-02-12,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-004,Noise-Canceling Headphones,Electronics,5,129.99,0.0000,649.95,72.00,360.00,289.95,Bank Transfer,Online
+10138,ORD-10138,2025-02-15,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-017,USB-C Charger,Electronics,5,34.99,0.1000,157.46,15.00,75.00,82.46,PayPal,Wholesale
+10139,ORD-10139,2025-02-18,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-010,Gel Pen Pack,Office Supplies,5,8.99,0.0000,44.95,2.50,12.50,32.45,Debit Card,Retail
+10140,ORD-10140,2025-02-21,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-003,USB-C Hub,Electronics,5,54.99,0.1500,233.71,26.00,130.00,103.71,Credit Card,Online
+10141,ORD-10141,2025-02-24,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-016,Desk Organizer,Office Supplies,1,22.00,0.0500,20.90,8.00,8.00,12.90,Credit Card,Wholesale
+10142,ORD-10142,2025-02-27,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-009,Hardcover Notebook Set,Office Supplies,1,18.50,0.0000,18.50,7.00,7.00,11.50,Bank Transfer,Retail
+10143,ORD-10143,2025-03-02,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-002,Bluetooth Keyboard,Electronics,1,69.00,0.1000,62.10,32.00,32.00,30.10,PayPal,Online
+10144,ORD-10144,2025-03-05,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-015,Monitor Stand,Furniture,1,38.00,0.0000,38.00,16.00,16.00,22.00,Debit Card,Online
+10145,ORD-10145,2025-03-08,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-009,Hardcover Notebook Set,Office Supplies,1,18.50,0.0000,18.50,7.00,7.00,11.50,Credit Card,Wholesale
+10146,ORD-10146,2025-03-11,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-002,Bluetooth Keyboard,Electronics,1,69.00,0.1000,62.10,32.00,32.00,30.10,Credit Card,Retail
+10147,ORD-10147,2025-03-14,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-015,Monitor Stand,Furniture,1,38.00,0.0000,38.00,16.00,16.00,22.00,Bank Transfer,Online
+10148,ORD-10148,2025-03-17,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-008,Filing Cabinet,Furniture,2,159.00,0.1500,270.30,98.00,196.00,74.30,PayPal,Wholesale
+10149,ORD-10149,2025-03-20,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-001,Wireless Mouse,Electronics,2,29.99,0.0500,56.98,12.00,24.00,32.98,Debit Card,Retail
+10150,ORD-10150,2025-03-23,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-014,Webcam HD,Electronics,2,79.00,0.0000,158.00,41.00,82.00,76.00,Credit Card,Online
+10151,ORD-10151,2025-03-26,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-007,LED Desk Lamp,Furniture,2,42.50,0.1000,76.50,18.00,36.00,40.50,Credit Card,Wholesale
+10152,ORD-10152,2025-03-29,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-020,Laptop Sleeve,Accessories,2,27.50,0.0000,55.00,11.00,22.00,33.00,Bank Transfer,Retail
+10153,ORD-10153,2025-04-01,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-013,Portable SSD 1TB,Electronics,2,109.00,0.0000,218.00,68.00,136.00,82.00,PayPal,Online
+10154,ORD-10154,2025-04-04,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-007,LED Desk Lamp,Furniture,2,42.50,0.1000,76.50,18.00,36.00,40.50,Debit Card,Wholesale
+10155,ORD-10155,2025-04-07,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-020,Laptop Sleeve,Accessories,3,27.50,0.0000,82.50,11.00,33.00,49.50,Credit Card,Retail
+10156,ORD-10156,2025-04-10,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-013,Portable SSD 1TB,Electronics,3,109.00,0.1500,277.95,68.00,204.00,73.95,Credit Card,Online
+10157,ORD-10157,2025-04-13,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-006,Compact Desk,Furniture,3,189.00,0.0500,538.65,110.00,330.00,208.65,Bank Transfer,Online
+10158,ORD-10158,2025-04-16,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-019,Sticky Notes Bundle,Office Supplies,3,11.50,0.0000,34.50,3.75,11.25,23.25,PayPal,Wholesale
+10159,ORD-10159,2025-04-19,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-012,Desktop Calculator,Office Supplies,3,24.00,0.1000,64.80,9.50,28.50,36.30,Debit Card,Retail
+10160,ORD-10160,2025-04-22,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-005,Ergonomic Chair,Furniture,3,249.00,0.0000,747.00,145.00,435.00,312.00,Credit Card,Online
+10161,ORD-10161,2025-04-25,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-018,Bookshelf,Furniture,3,129.00,0.0000,387.00,76.00,228.00,159.00,Credit Card,Wholesale
+10162,ORD-10162,2025-04-28,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-011,Printer Paper Ream,Office Supplies,4,12.25,0.1000,44.10,5.00,20.00,24.10,Bank Transfer,Retail
+10163,ORD-10163,2025-05-01,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-005,Ergonomic Chair,Furniture,4,249.00,0.0000,996.00,145.00,580.00,416.00,PayPal,Online
+10164,ORD-10164,2025-05-04,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-018,Bookshelf,Furniture,4,129.00,0.1500,438.60,76.00,304.00,134.60,Debit Card,Wholesale
+10165,ORD-10165,2025-05-07,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-011,Printer Paper Ream,Office Supplies,4,12.25,0.0500,46.55,5.00,20.00,26.55,Credit Card,Retail
+10166,ORD-10166,2025-05-10,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-004,Noise-Canceling Headphones,Electronics,4,129.99,0.0000,519.96,72.00,288.00,231.96,Credit Card,Online
+10167,ORD-10167,2025-05-13,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-017,USB-C Charger,Electronics,4,34.99,0.1000,125.96,15.00,60.00,65.96,Bank Transfer,Wholesale
+10168,ORD-10168,2025-05-16,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-010,Gel Pen Pack,Office Supplies,4,8.99,0.0000,35.96,2.50,10.00,25.96,PayPal,Retail
+10169,ORD-10169,2025-05-19,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-003,USB-C Hub,Electronics,5,54.99,0.0000,274.95,26.00,130.00,144.95,Debit Card,Online
+10170,ORD-10170,2025-05-22,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-016,Desk Organizer,Office Supplies,5,22.00,0.1000,99.00,8.00,40.00,59.00,Credit Card,Online
+10171,ORD-10171,2025-05-25,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-009,Hardcover Notebook Set,Office Supplies,5,18.50,0.0000,92.50,7.00,35.00,57.50,Credit Card,Wholesale
+10172,ORD-10172,2025-05-28,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-003,USB-C Hub,Electronics,5,54.99,0.1500,233.71,26.00,130.00,103.71,Bank Transfer,Retail
+10173,ORD-10173,2025-05-31,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-016,Desk Organizer,Office Supplies,5,22.00,0.0500,104.50,8.00,40.00,64.50,PayPal,Online
+10174,ORD-10174,2025-06-03,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-009,Hardcover Notebook Set,Office Supplies,5,18.50,0.0000,92.50,7.00,35.00,57.50,Debit Card,Wholesale
+10175,ORD-10175,2025-06-06,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-002,Bluetooth Keyboard,Electronics,5,69.00,0.1000,310.50,32.00,160.00,150.50,Credit Card,Retail
+10176,ORD-10176,2025-06-09,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-015,Monitor Stand,Furniture,1,38.00,0.0000,38.00,16.00,16.00,22.00,Credit Card,Online
+10177,ORD-10177,2025-06-12,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-008,Filing Cabinet,Furniture,1,159.00,0.0000,159.00,98.00,98.00,61.00,Bank Transfer,Wholesale
+10178,ORD-10178,2025-06-15,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-001,Wireless Mouse,Electronics,1,29.99,0.1000,26.99,12.00,12.00,14.99,PayPal,Retail
+10179,ORD-10179,2025-06-18,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-014,Webcam HD,Electronics,1,79.00,0.0000,79.00,41.00,41.00,38.00,Debit Card,Online
+10180,ORD-10180,2025-06-21,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-007,LED Desk Lamp,Furniture,1,42.50,0.1500,36.13,18.00,18.00,18.13,Credit Card,Wholesale
+10181,ORD-10181,2025-06-24,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-001,Wireless Mouse,Electronics,1,29.99,0.0500,28.49,12.00,12.00,16.49,Credit Card,Retail
+10182,ORD-10182,2025-06-27,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-014,Webcam HD,Electronics,1,79.00,0.0000,79.00,41.00,41.00,38.00,Bank Transfer,Online
+10183,ORD-10183,2025-06-30,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-007,LED Desk Lamp,Furniture,2,42.50,0.1000,76.50,18.00,36.00,40.50,PayPal,Online
+10184,ORD-10184,2025-07-03,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-020,Laptop Sleeve,Accessories,2,27.50,0.0000,55.00,11.00,22.00,33.00,Debit Card,Wholesale
+10185,ORD-10185,2025-07-06,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-013,Portable SSD 1TB,Electronics,2,109.00,0.0000,218.00,68.00,136.00,82.00,Credit Card,Retail
+10186,ORD-10186,2025-07-09,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-006,Compact Desk,Furniture,2,189.00,0.1000,340.20,110.00,220.00,120.20,Credit Card,Online
+10187,ORD-10187,2025-07-12,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.0000,23.00,3.75,7.50,15.50,Bank Transfer,Wholesale
+10188,ORD-10188,2025-07-15,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-012,Desktop Calculator,Office Supplies,2,24.00,0.1500,40.80,9.50,19.00,21.80,PayPal,Retail
+10189,ORD-10189,2025-07-18,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-005,Ergonomic Chair,Furniture,2,249.00,0.0500,473.10,145.00,290.00,183.10,Debit Card,Online
+10190,ORD-10190,2025-07-21,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-019,Sticky Notes Bundle,Office Supplies,3,11.50,0.0000,34.50,3.75,11.25,23.25,Credit Card,Wholesale
+10191,ORD-10191,2025-07-24,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-012,Desktop Calculator,Office Supplies,3,24.00,0.1000,64.80,9.50,28.50,36.30,Credit Card,Retail
+10192,ORD-10192,2025-07-27,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-005,Ergonomic Chair,Furniture,3,249.00,0.0000,747.00,145.00,435.00,312.00,Bank Transfer,Online
+10193,ORD-10193,2025-07-30,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-018,Bookshelf,Furniture,3,129.00,0.0000,387.00,76.00,228.00,159.00,PayPal,Wholesale
+10194,ORD-10194,2025-08-02,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-011,Printer Paper Ream,Office Supplies,3,12.25,0.1000,33.08,5.00,15.00,18.08,Debit Card,Retail
+10195,ORD-10195,2025-08-05,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-004,Noise-Canceling Headphones,Electronics,3,129.99,0.0000,389.97,72.00,216.00,173.97,Credit Card,Online
+10196,ORD-10196,2025-08-08,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-017,USB-C Charger,Electronics,3,34.99,0.1500,89.22,15.00,45.00,44.22,Credit Card,Online
+10197,ORD-10197,2025-08-11,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-010,Gel Pen Pack,Office Supplies,4,8.99,0.0500,34.16,2.50,10.00,24.16,Bank Transfer,Wholesale
+10198,ORD-10198,2025-08-14,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-003,USB-C Hub,Electronics,4,54.99,0.0000,219.96,26.00,104.00,115.96,PayPal,Retail
+10199,ORD-10199,2025-08-17,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-017,USB-C Charger,Electronics,4,34.99,0.1000,125.96,15.00,60.00,65.96,Debit Card,Online
+10200,ORD-10200,2025-08-20,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-010,Gel Pen Pack,Office Supplies,4,8.99,0.0000,35.96,2.50,10.00,25.96,Credit Card,Wholesale
+10201,ORD-10201,2025-08-23,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-003,USB-C Hub,Electronics,4,54.99,0.0000,219.96,26.00,104.00,115.96,Credit Card,Retail
+10202,ORD-10202,2025-08-26,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-016,Desk Organizer,Office Supplies,4,22.00,0.1000,79.20,8.00,32.00,47.20,Bank Transfer,Online
+10203,ORD-10203,2025-08-29,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.0000,74.00,7.00,28.00,46.00,PayPal,Wholesale
+10204,ORD-10204,2025-09-01,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-002,Bluetooth Keyboard,Electronics,5,69.00,0.1500,293.25,32.00,160.00,133.25,Debit Card,Retail
+10205,ORD-10205,2025-09-04,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-015,Monitor Stand,Furniture,5,38.00,0.0500,180.50,16.00,80.00,100.50,Credit Card,Online
+10206,ORD-10206,2025-09-07,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-008,Filing Cabinet,Furniture,5,159.00,0.0000,795.00,98.00,490.00,305.00,Credit Card,Wholesale
+10207,ORD-10207,2025-09-10,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-001,Wireless Mouse,Electronics,5,29.99,0.1000,134.96,12.00,60.00,74.96,Bank Transfer,Retail
+10208,ORD-10208,2025-09-13,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-015,Monitor Stand,Furniture,5,38.00,0.0000,190.00,16.00,80.00,110.00,PayPal,Online
+10209,ORD-10209,2025-09-16,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-008,Filing Cabinet,Furniture,5,159.00,0.0000,795.00,98.00,490.00,305.00,Debit Card,Online
+10210,ORD-10210,2025-09-19,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-001,Wireless Mouse,Electronics,5,29.99,0.1000,134.96,12.00,60.00,74.96,Credit Card,Wholesale
+10211,ORD-10211,2025-09-22,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-014,Webcam HD,Electronics,1,79.00,0.0000,79.00,41.00,41.00,38.00,Credit Card,Retail
+10212,ORD-10212,2025-09-25,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-007,LED Desk Lamp,Furniture,1,42.50,0.1500,36.13,18.00,18.00,18.13,Bank Transfer,Online
+10213,ORD-10213,2025-09-28,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-020,Laptop Sleeve,Accessories,1,27.50,0.0500,26.13,11.00,11.00,15.13,PayPal,Wholesale
+10214,ORD-10214,2025-10-01,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-013,Portable SSD 1TB,Electronics,1,109.00,0.0000,109.00,68.00,68.00,41.00,Debit Card,Retail
+10215,ORD-10215,2025-10-04,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-006,Compact Desk,Furniture,1,189.00,0.1000,170.10,110.00,110.00,60.10,Credit Card,Online
+10216,ORD-10216,2025-10-07,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.0000,11.50,3.75,3.75,7.75,Credit Card,Wholesale
+10217,ORD-10217,2025-10-10,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-013,Portable SSD 1TB,Electronics,1,109.00,0.0000,109.00,68.00,68.00,41.00,Bank Transfer,Retail
+10218,ORD-10218,2025-10-13,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-006,Compact Desk,Furniture,2,189.00,0.1000,340.20,110.00,220.00,120.20,PayPal,Online
+10219,ORD-10219,2025-10-16,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.0000,23.00,3.75,7.50,15.50,Debit Card,Wholesale
+10220,ORD-10220,2025-10-19,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-012,Desktop Calculator,Office Supplies,2,24.00,0.1500,40.80,9.50,19.00,21.80,Credit Card,Retail
+10221,ORD-10221,2025-10-22,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-005,Ergonomic Chair,Furniture,2,249.00,0.0500,473.10,145.00,290.00,183.10,Credit Card,Online
+10222,ORD-10222,2025-10-25,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-018,Bookshelf,Furniture,2,129.00,0.0000,258.00,76.00,152.00,106.00,Bank Transfer,Online
+10223,ORD-10223,2025-10-28,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.1000,22.05,5.00,10.00,12.05,PayPal,Wholesale
+10224,ORD-10224,2025-10-31,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-004,Noise-Canceling Headphones,Electronics,2,129.99,0.0000,259.98,72.00,144.00,115.98,Debit Card,Retail
+10225,ORD-10225,2025-11-03,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-017,USB-C Charger,Electronics,3,34.99,0.0000,104.97,15.00,45.00,59.97,Credit Card,Online
+10226,ORD-10226,2025-11-06,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-011,Printer Paper Ream,Office Supplies,3,12.25,0.1000,33.08,5.00,15.00,18.08,Credit Card,Wholesale
+10227,ORD-10227,2025-11-09,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-004,Noise-Canceling Headphones,Electronics,3,129.99,0.0000,389.97,72.00,216.00,173.97,Bank Transfer,Retail
+10228,ORD-10228,2025-11-12,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-017,USB-C Charger,Electronics,3,34.99,0.1500,89.22,15.00,45.00,44.22,PayPal,Online
+10229,ORD-10229,2025-11-15,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-010,Gel Pen Pack,Office Supplies,3,8.99,0.0500,25.62,2.50,7.50,18.12,Debit Card,Wholesale
+10230,ORD-10230,2025-11-18,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-003,USB-C Hub,Electronics,3,54.99,0.0000,164.97,26.00,78.00,86.97,Credit Card,Retail
+10231,ORD-10231,2025-11-21,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-016,Desk Organizer,Office Supplies,3,22.00,0.1000,59.40,8.00,24.00,35.40,Credit Card,Online
+10232,ORD-10232,2025-11-24,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.0000,74.00,7.00,28.00,46.00,Bank Transfer,Wholesale
+10233,ORD-10233,2025-11-27,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-002,Bluetooth Keyboard,Electronics,4,69.00,0.0000,276.00,32.00,128.00,148.00,PayPal,Retail
+10234,ORD-10234,2025-11-30,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-015,Monitor Stand,Furniture,4,38.00,0.1000,136.80,16.00,64.00,72.80,Debit Card,Online
+10235,ORD-10235,2025-12-03,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.0000,74.00,7.00,28.00,46.00,Credit Card,Online
+10236,ORD-10236,2025-12-06,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-002,Bluetooth Keyboard,Electronics,4,69.00,0.1500,234.60,32.00,128.00,106.60,Credit Card,Wholesale
+10237,ORD-10237,2025-12-09,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-015,Monitor Stand,Furniture,4,38.00,0.0500,144.40,16.00,64.00,80.40,Bank Transfer,Retail
+10238,ORD-10238,2025-12-12,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-008,Filing Cabinet,Furniture,4,159.00,0.0000,636.00,98.00,392.00,244.00,PayPal,Online
+10239,ORD-10239,2025-12-15,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-001,Wireless Mouse,Electronics,5,29.99,0.1000,134.96,12.00,60.00,74.96,Debit Card,Wholesale
+10240,ORD-10240,2025-12-18,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-014,Webcam HD,Electronics,5,79.00,0.0000,395.00,41.00,205.00,190.00,Credit Card,Retail
+10241,ORD-10241,2025-12-21,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-007,LED Desk Lamp,Furniture,5,42.50,0.0000,212.50,18.00,90.00,122.50,Credit Card,Online
+10242,ORD-10242,2025-12-24,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-020,Laptop Sleeve,Accessories,5,27.50,0.1000,123.75,11.00,55.00,68.75,Bank Transfer,Wholesale
+10243,ORD-10243,2025-12-27,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-013,Portable SSD 1TB,Electronics,5,109.00,0.0000,545.00,68.00,340.00,205.00,PayPal,Retail
+10244,ORD-10244,2025-12-30,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-007,LED Desk Lamp,Furniture,5,42.50,0.1500,180.63,18.00,90.00,90.63,Debit Card,Online
+10245,ORD-10245,2024-01-03,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-020,Laptop Sleeve,Accessories,5,27.50,0.0500,130.63,11.00,55.00,75.63,Credit Card,Wholesale
+10246,ORD-10246,2024-01-06,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-013,Portable SSD 1TB,Electronics,1,109.00,0.0000,109.00,68.00,68.00,41.00,Credit Card,Retail
+10247,ORD-10247,2024-01-09,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-006,Compact Desk,Furniture,1,189.00,0.1000,170.10,110.00,110.00,60.10,Bank Transfer,Online
+10248,ORD-10248,2024-01-12,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.0000,11.50,3.75,3.75,7.75,PayPal,Online
+10249,ORD-10249,2024-01-15,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-012,Desktop Calculator,Office Supplies,1,24.00,0.0000,24.00,9.50,9.50,14.50,Debit Card,Wholesale
+10250,ORD-10250,2024-01-18,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-005,Ergonomic Chair,Furniture,1,249.00,0.1000,224.10,145.00,145.00,79.10,Credit Card,Retail
+10251,ORD-10251,2024-01-21,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-018,Bookshelf,Furniture,1,129.00,0.0000,129.00,76.00,76.00,53.00,Credit Card,Online
+10252,ORD-10252,2024-01-24,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.1500,10.41,5.00,5.00,5.41,Bank Transfer,Wholesale
+10253,ORD-10253,2024-01-27,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-005,Ergonomic Chair,Furniture,2,249.00,0.0500,473.10,145.00,290.00,183.10,PayPal,Retail
+10254,ORD-10254,2024-01-30,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-018,Bookshelf,Furniture,2,129.00,0.0000,258.00,76.00,152.00,106.00,Debit Card,Online
+10255,ORD-10255,2024-02-02,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.1000,22.05,5.00,10.00,12.05,Credit Card,Wholesale
+10256,ORD-10256,2024-02-05,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-004,Noise-Canceling Headphones,Electronics,2,129.99,0.0000,259.98,72.00,144.00,115.98,Credit Card,Retail
+10257,ORD-10257,2024-02-08,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-017,USB-C Charger,Electronics,2,34.99,0.0000,69.98,15.00,30.00,39.98,Bank Transfer,Online
+10258,ORD-10258,2024-02-11,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.1000,16.18,2.50,5.00,11.18,PayPal,Wholesale
+10259,ORD-10259,2024-02-14,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-003,USB-C Hub,Electronics,2,54.99,0.0000,109.98,26.00,52.00,57.98,Debit Card,Retail
+10260,ORD-10260,2024-02-17,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-016,Desk Organizer,Office Supplies,3,22.00,0.1500,56.10,8.00,24.00,32.10,Credit Card,Online
+10261,ORD-10261,2024-02-20,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.0500,52.73,7.00,21.00,31.73,Credit Card,Online
+10262,ORD-10262,2024-02-23,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-003,USB-C Hub,Electronics,3,54.99,0.0000,164.97,26.00,78.00,86.97,Bank Transfer,Wholesale
+10263,ORD-10263,2024-02-26,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-016,Desk Organizer,Office Supplies,3,22.00,0.1000,59.40,8.00,24.00,35.40,PayPal,Retail
+10264,ORD-10264,2024-02-29,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.0000,55.50,7.00,21.00,34.50,Debit Card,Online
+10265,ORD-10265,2024-03-03,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-002,Bluetooth Keyboard,Electronics,3,69.00,0.0000,207.00,32.00,96.00,111.00,Credit Card,Wholesale
+10266,ORD-10266,2024-03-06,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-015,Monitor Stand,Furniture,3,38.00,0.1000,102.60,16.00,48.00,54.60,Credit Card,Retail
+10267,ORD-10267,2024-03-09,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-008,Filing Cabinet,Furniture,4,159.00,0.0000,636.00,98.00,392.00,244.00,Bank Transfer,Online
+10268,ORD-10268,2024-03-12,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-001,Wireless Mouse,Electronics,4,29.99,0.1500,101.97,12.00,48.00,53.97,PayPal,Wholesale
+10269,ORD-10269,2024-03-15,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-014,Webcam HD,Electronics,4,79.00,0.0500,300.20,41.00,164.00,136.20,Debit Card,Retail
+10270,ORD-10270,2024-03-18,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-007,LED Desk Lamp,Furniture,4,42.50,0.0000,170.00,18.00,72.00,98.00,Credit Card,Online
+10271,ORD-10271,2024-03-21,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-001,Wireless Mouse,Electronics,4,29.99,0.1000,107.96,12.00,48.00,59.96,Credit Card,Wholesale
+10272,ORD-10272,2024-03-24,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-014,Webcam HD,Electronics,4,79.00,0.0000,316.00,41.00,164.00,152.00,Bank Transfer,Retail
+10273,ORD-10273,2024-03-27,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-007,LED Desk Lamp,Furniture,4,42.50,0.0000,170.00,18.00,72.00,98.00,PayPal,Online
+10274,ORD-10274,2024-03-30,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-020,Laptop Sleeve,Accessories,5,27.50,0.1000,123.75,11.00,55.00,68.75,Debit Card,Online
+10275,ORD-10275,2024-04-02,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-013,Portable SSD 1TB,Electronics,5,109.00,0.0000,545.00,68.00,340.00,205.00,Credit Card,Wholesale
+10276,ORD-10276,2024-04-05,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-006,Compact Desk,Furniture,5,189.00,0.1500,803.25,110.00,550.00,253.25,Credit Card,Retail
+10277,ORD-10277,2024-04-08,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.0500,54.63,3.75,18.75,35.88,Bank Transfer,Online
+10278,ORD-10278,2024-04-11,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-012,Desktop Calculator,Office Supplies,5,24.00,0.0000,120.00,9.50,47.50,72.50,PayPal,Wholesale
+10279,ORD-10279,2024-04-14,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-005,Ergonomic Chair,Furniture,5,249.00,0.1000,1120.50,145.00,725.00,395.50,Debit Card,Retail
+10280,ORD-10280,2024-04-17,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.0000,57.50,3.75,18.75,38.75,Credit Card,Online
+10281,ORD-10281,2024-04-20,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-012,Desktop Calculator,Office Supplies,1,24.00,0.0000,24.00,9.50,9.50,14.50,Credit Card,Wholesale
+10282,ORD-10282,2024-04-23,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-005,Ergonomic Chair,Furniture,1,249.00,0.1000,224.10,145.00,145.00,79.10,Bank Transfer,Retail
+10283,ORD-10283,2024-04-26,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-018,Bookshelf,Furniture,1,129.00,0.0000,129.00,76.00,76.00,53.00,PayPal,Online
+10284,ORD-10284,2024-04-29,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.1500,10.41,5.00,5.00,5.41,Debit Card,Wholesale
+10285,ORD-10285,2024-05-02,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-004,Noise-Canceling Headphones,Electronics,1,129.99,0.0500,123.49,72.00,72.00,51.49,Credit Card,Retail
+10286,ORD-10286,2024-05-05,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-017,USB-C Charger,Electronics,1,34.99,0.0000,34.99,15.00,15.00,19.99,Credit Card,Online
+10287,ORD-10287,2024-05-08,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-010,Gel Pen Pack,Office Supplies,1,8.99,0.1000,8.09,2.50,2.50,5.59,Bank Transfer,Online
+10288,ORD-10288,2024-05-11,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-003,USB-C Hub,Electronics,2,54.99,0.0000,109.98,26.00,52.00,57.98,PayPal,Wholesale
+10289,ORD-10289,2024-05-14,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-017,USB-C Charger,Electronics,2,34.99,0.0000,69.98,15.00,30.00,39.98,Debit Card,Retail
+10290,ORD-10290,2024-05-17,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.1000,16.18,2.50,5.00,11.18,Credit Card,Online
+10291,ORD-10291,2024-05-20,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-003,USB-C Hub,Electronics,2,54.99,0.0000,109.98,26.00,52.00,57.98,Credit Card,Wholesale
+10292,ORD-10292,2024-05-23,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-016,Desk Organizer,Office Supplies,2,22.00,0.1500,37.40,8.00,16.00,21.40,Bank Transfer,Retail
+10293,ORD-10293,2024-05-26,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-009,Hardcover Notebook Set,Office Supplies,2,18.50,0.0500,35.15,7.00,14.00,21.15,PayPal,Online
+10294,ORD-10294,2024-05-29,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-002,Bluetooth Keyboard,Electronics,2,69.00,0.0000,138.00,32.00,64.00,74.00,Debit Card,Wholesale
+10295,ORD-10295,2024-06-01,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-015,Monitor Stand,Furniture,3,38.00,0.1000,102.60,16.00,48.00,54.60,Credit Card,Retail
+10296,ORD-10296,2024-06-04,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-008,Filing Cabinet,Furniture,3,159.00,0.0000,477.00,98.00,294.00,183.00,Credit Card,Online
+10297,ORD-10297,2024-06-07,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-001,Wireless Mouse,Electronics,3,29.99,0.0000,89.97,12.00,36.00,53.97,Bank Transfer,Wholesale
+10298,ORD-10298,2024-06-10,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-015,Monitor Stand,Furniture,3,38.00,0.1000,102.60,16.00,48.00,54.60,PayPal,Retail
+10299,ORD-10299,2024-06-13,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-008,Filing Cabinet,Furniture,3,159.00,0.0000,477.00,98.00,294.00,183.00,Debit Card,Online
+10300,ORD-10300,2024-06-16,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-001,Wireless Mouse,Electronics,3,29.99,0.1500,76.47,12.00,36.00,40.47,Credit Card,Online
+10301,ORD-10301,2024-06-19,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-014,Webcam HD,Electronics,3,79.00,0.0500,225.15,41.00,123.00,102.15,Credit Card,Wholesale
+10302,ORD-10302,2024-06-22,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-007,LED Desk Lamp,Furniture,4,42.50,0.0000,170.00,18.00,72.00,98.00,Bank Transfer,Retail
+10303,ORD-10303,2024-06-25,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-020,Laptop Sleeve,Accessories,4,27.50,0.1000,99.00,11.00,44.00,55.00,PayPal,Online
+10304,ORD-10304,2024-06-28,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-013,Portable SSD 1TB,Electronics,4,109.00,0.0000,436.00,68.00,272.00,164.00,Debit Card,Wholesale
+10305,ORD-10305,2024-07-01,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-006,Compact Desk,Furniture,4,189.00,0.0000,756.00,110.00,440.00,316.00,Credit Card,Retail
+10306,ORD-10306,2024-07-04,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-019,Sticky Notes Bundle,Office Supplies,4,11.50,0.1000,41.40,3.75,15.00,26.40,Credit Card,Online
+10307,ORD-10307,2024-07-07,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-013,Portable SSD 1TB,Electronics,4,109.00,0.0000,436.00,68.00,272.00,164.00,Bank Transfer,Wholesale
+10308,ORD-10308,2024-07-10,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-006,Compact Desk,Furniture,4,189.00,0.1500,642.60,110.00,440.00,202.60,PayPal,Retail
+10309,ORD-10309,2024-07-13,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.0500,54.63,3.75,18.75,35.88,Debit Card,Online
+10310,ORD-10310,2024-07-16,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-012,Desktop Calculator,Office Supplies,5,24.00,0.0000,120.00,9.50,47.50,72.50,Credit Card,Wholesale
+10311,ORD-10311,2024-07-19,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-005,Ergonomic Chair,Furniture,5,249.00,0.1000,1120.50,145.00,725.00,395.50,Credit Card,Retail
+10312,ORD-10312,2024-07-22,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-018,Bookshelf,Furniture,5,129.00,0.0000,645.00,76.00,380.00,265.00,Bank Transfer,Online
+10313,ORD-10313,2024-07-25,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-011,Printer Paper Ream,Office Supplies,5,12.25,0.0000,61.25,5.00,25.00,36.25,PayPal,Online
+10314,ORD-10314,2024-07-28,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-004,Noise-Canceling Headphones,Electronics,5,129.99,0.1000,584.96,72.00,360.00,224.96,Debit Card,Wholesale
+10315,ORD-10315,2024-07-31,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-017,USB-C Charger,Electronics,5,34.99,0.0000,174.95,15.00,75.00,99.95,Credit Card,Retail
+10316,ORD-10316,2024-08-03,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.1500,10.41,5.00,5.00,5.41,Credit Card,Online
+10317,ORD-10317,2024-08-06,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-004,Noise-Canceling Headphones,Electronics,1,129.99,0.0500,123.49,72.00,72.00,51.49,Bank Transfer,Wholesale
+10318,ORD-10318,2024-08-09,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-017,USB-C Charger,Electronics,1,34.99,0.0000,34.99,15.00,15.00,19.99,PayPal,Retail
+10319,ORD-10319,2024-08-12,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-010,Gel Pen Pack,Office Supplies,1,8.99,0.1000,8.09,2.50,2.50,5.59,Debit Card,Online
+10320,ORD-10320,2024-08-15,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-003,USB-C Hub,Electronics,1,54.99,0.0000,54.99,26.00,26.00,28.99,Credit Card,Wholesale
+10321,ORD-10321,2024-08-18,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-016,Desk Organizer,Office Supplies,1,22.00,0.0000,22.00,8.00,8.00,14.00,Credit Card,Retail
+10322,ORD-10322,2024-08-21,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-009,Hardcover Notebook Set,Office Supplies,1,18.50,0.1000,16.65,7.00,7.00,9.65,Bank Transfer,Online
+10323,ORD-10323,2024-08-24,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-002,Bluetooth Keyboard,Electronics,2,69.00,0.0000,138.00,32.00,64.00,74.00,PayPal,Wholesale
+10324,ORD-10324,2024-08-27,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-015,Monitor Stand,Furniture,2,38.00,0.1500,64.60,16.00,32.00,32.60,Debit Card,Retail
+10325,ORD-10325,2024-08-30,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-009,Hardcover Notebook Set,Office Supplies,2,18.50,0.0500,35.15,7.00,14.00,21.15,Credit Card,Online
+10326,ORD-10326,2024-09-02,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-002,Bluetooth Keyboard,Electronics,2,69.00,0.0000,138.00,32.00,64.00,74.00,Credit Card,Online
+10327,ORD-10327,2024-09-05,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-015,Monitor Stand,Furniture,2,38.00,0.1000,68.40,16.00,32.00,36.40,Bank Transfer,Wholesale
+10328,ORD-10328,2024-09-08,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-008,Filing Cabinet,Furniture,2,159.00,0.0000,318.00,98.00,196.00,122.00,PayPal,Retail
+10329,ORD-10329,2024-09-11,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-001,Wireless Mouse,Electronics,2,29.99,0.0000,59.98,12.00,24.00,35.98,Debit Card,Online
+10330,ORD-10330,2024-09-14,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-014,Webcam HD,Electronics,3,79.00,0.1000,213.30,41.00,123.00,90.30,Credit Card,Wholesale
+10331,ORD-10331,2024-09-17,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-007,LED Desk Lamp,Furniture,3,42.50,0.0000,127.50,18.00,54.00,73.50,Credit Card,Retail
+10332,ORD-10332,2024-09-20,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-020,Laptop Sleeve,Accessories,3,27.50,0.1500,70.13,11.00,33.00,37.13,Bank Transfer,Online
+10333,ORD-10333,2024-09-23,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-013,Portable SSD 1TB,Electronics,3,109.00,0.0500,310.65,68.00,204.00,106.65,PayPal,Wholesale
+10334,ORD-10334,2024-09-26,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-007,LED Desk Lamp,Furniture,3,42.50,0.0000,127.50,18.00,54.00,73.50,Debit Card,Retail
+10335,ORD-10335,2024-09-29,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-020,Laptop Sleeve,Accessories,3,27.50,0.1000,74.25,11.00,33.00,41.25,Credit Card,Online
+10336,ORD-10336,2024-10-02,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-013,Portable SSD 1TB,Electronics,3,109.00,0.0000,327.00,68.00,204.00,123.00,Credit Card,Wholesale
+10337,ORD-10337,2024-10-05,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-006,Compact Desk,Furniture,4,189.00,0.0000,756.00,110.00,440.00,316.00,Bank Transfer,Retail
+10338,ORD-10338,2024-10-08,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-019,Sticky Notes Bundle,Office Supplies,4,11.50,0.1000,41.40,3.75,15.00,26.40,PayPal,Online
+10339,ORD-10339,2024-10-11,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-012,Desktop Calculator,Office Supplies,4,24.00,0.0000,96.00,9.50,38.00,58.00,Debit Card,Online
+10340,ORD-10340,2024-10-14,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-005,Ergonomic Chair,Furniture,4,249.00,0.1500,846.60,145.00,580.00,266.60,Credit Card,Wholesale
+10341,ORD-10341,2024-10-17,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-018,Bookshelf,Furniture,4,129.00,0.0500,490.20,76.00,304.00,186.20,Credit Card,Retail
+10342,ORD-10342,2024-10-20,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-011,Printer Paper Ream,Office Supplies,4,12.25,0.0000,49.00,5.00,20.00,29.00,Bank Transfer,Online
+10343,ORD-10343,2024-10-23,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-005,Ergonomic Chair,Furniture,4,249.00,0.1000,896.40,145.00,580.00,316.40,PayPal,Wholesale
+10344,ORD-10344,2024-10-26,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-018,Bookshelf,Furniture,5,129.00,0.0000,645.00,76.00,380.00,265.00,Debit Card,Retail
+10345,ORD-10345,2024-10-29,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-011,Printer Paper Ream,Office Supplies,5,12.25,0.0000,61.25,5.00,25.00,36.25,Credit Card,Online
+10346,ORD-10346,2024-11-01,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-004,Noise-Canceling Headphones,Electronics,5,129.99,0.1000,584.96,72.00,360.00,224.96,Credit Card,Wholesale
+10347,ORD-10347,2024-11-04,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-017,USB-C Charger,Electronics,5,34.99,0.0000,174.95,15.00,75.00,99.95,Bank Transfer,Retail
+10348,ORD-10348,2024-11-07,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-010,Gel Pen Pack,Office Supplies,5,8.99,0.1500,38.21,2.50,12.50,25.71,PayPal,Online
+10349,ORD-10349,2024-11-10,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-003,USB-C Hub,Electronics,5,54.99,0.0500,261.20,26.00,130.00,131.20,Debit Card,Wholesale
+10350,ORD-10350,2024-11-13,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-016,Desk Organizer,Office Supplies,5,22.00,0.0000,110.00,8.00,40.00,70.00,Credit Card,Retail
+10351,ORD-10351,2024-11-16,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-009,Hardcover Notebook Set,Office Supplies,1,18.50,0.1000,16.65,7.00,7.00,9.65,Credit Card,Online
+10352,ORD-10352,2024-11-19,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-003,USB-C Hub,Electronics,1,54.99,0.0000,54.99,26.00,26.00,28.99,Bank Transfer,Online
+10353,ORD-10353,2024-11-22,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-016,Desk Organizer,Office Supplies,1,22.00,0.0000,22.00,8.00,8.00,14.00,PayPal,Wholesale
+10354,ORD-10354,2024-11-25,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-009,Hardcover Notebook Set,Office Supplies,1,18.50,0.1000,16.65,7.00,7.00,9.65,Debit Card,Retail
+10355,ORD-10355,2024-11-28,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-002,Bluetooth Keyboard,Electronics,1,69.00,0.0000,69.00,32.00,32.00,37.00,Credit Card,Online
+10356,ORD-10356,2024-12-01,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-015,Monitor Stand,Furniture,1,38.00,0.1500,32.30,16.00,16.00,16.30,Credit Card,Wholesale
+10357,ORD-10357,2024-12-04,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-008,Filing Cabinet,Furniture,1,159.00,0.0500,151.05,98.00,98.00,53.05,Bank Transfer,Retail
+10358,ORD-10358,2024-12-07,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-001,Wireless Mouse,Electronics,2,29.99,0.0000,59.98,12.00,24.00,35.98,PayPal,Online
+10359,ORD-10359,2024-12-10,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-014,Webcam HD,Electronics,2,79.00,0.1000,142.20,41.00,82.00,60.20,Debit Card,Wholesale
+10360,ORD-10360,2024-12-13,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-007,LED Desk Lamp,Furniture,2,42.50,0.0000,85.00,18.00,36.00,49.00,Credit Card,Retail
+10361,ORD-10361,2024-12-16,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-001,Wireless Mouse,Electronics,2,29.99,0.0000,59.98,12.00,24.00,35.98,Credit Card,Online
+10362,ORD-10362,2024-12-19,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-014,Webcam HD,Electronics,2,79.00,0.1000,142.20,41.00,82.00,60.20,Bank Transfer,Wholesale
+10363,ORD-10363,2024-12-22,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-007,LED Desk Lamp,Furniture,2,42.50,0.0000,85.00,18.00,36.00,49.00,PayPal,Retail
+10364,ORD-10364,2024-12-25,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-020,Laptop Sleeve,Accessories,2,27.50,0.1500,46.75,11.00,22.00,24.75,Debit Card,Online
+10365,ORD-10365,2024-12-28,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-013,Portable SSD 1TB,Electronics,3,109.00,0.0500,310.65,68.00,204.00,106.65,Credit Card,Online
+10366,ORD-10366,2024-12-31,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-006,Compact Desk,Furniture,3,189.00,0.0000,567.00,110.00,330.00,237.00,Credit Card,Wholesale
+10367,ORD-10367,2025-01-03,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-019,Sticky Notes Bundle,Office Supplies,3,11.50,0.1000,31.05,3.75,11.25,19.80,Bank Transfer,Retail
+10368,ORD-10368,2025-01-06,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-012,Desktop Calculator,Office Supplies,3,24.00,0.0000,72.00,9.50,28.50,43.50,PayPal,Online
+10369,ORD-10369,2025-01-09,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-005,Ergonomic Chair,Furniture,3,249.00,0.0000,747.00,145.00,435.00,312.00,Debit Card,Wholesale
+10370,ORD-10370,2025-01-12,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-019,Sticky Notes Bundle,Office Supplies,3,11.50,0.1000,31.05,3.75,11.25,19.80,Credit Card,Retail
+10371,ORD-10371,2025-01-15,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-012,Desktop Calculator,Office Supplies,3,24.00,0.0000,72.00,9.50,28.50,43.50,Credit Card,Online
+10372,ORD-10372,2025-01-18,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-005,Ergonomic Chair,Furniture,4,249.00,0.1500,846.60,145.00,580.00,266.60,Bank Transfer,Wholesale
+10373,ORD-10373,2025-01-21,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-018,Bookshelf,Furniture,4,129.00,0.0500,490.20,76.00,304.00,186.20,PayPal,Retail
+10374,ORD-10374,2025-01-24,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-011,Printer Paper Ream,Office Supplies,4,12.25,0.0000,49.00,5.00,20.00,29.00,Debit Card,Online
+10375,ORD-10375,2025-01-27,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-004,Noise-Canceling Headphones,Electronics,4,129.99,0.1000,467.96,72.00,288.00,179.96,Credit Card,Wholesale
+10376,ORD-10376,2025-01-30,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-017,USB-C Charger,Electronics,4,34.99,0.0000,139.96,15.00,60.00,79.96,Credit Card,Retail
+10377,ORD-10377,2025-02-02,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-010,Gel Pen Pack,Office Supplies,4,8.99,0.0000,35.96,2.50,10.00,25.96,Bank Transfer,Online
+10378,ORD-10378,2025-02-05,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-003,USB-C Hub,Electronics,4,54.99,0.1000,197.96,26.00,104.00,93.96,PayPal,Online
+10379,ORD-10379,2025-02-08,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-017,USB-C Charger,Electronics,5,34.99,0.0000,174.95,15.00,75.00,99.95,Debit Card,Wholesale
+10380,ORD-10380,2025-02-11,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-010,Gel Pen Pack,Office Supplies,5,8.99,0.1500,38.21,2.50,12.50,25.71,Credit Card,Retail
+10381,ORD-10381,2025-02-14,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-003,USB-C Hub,Electronics,5,54.99,0.0500,261.20,26.00,130.00,131.20,Credit Card,Online
+10382,ORD-10382,2025-02-17,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-016,Desk Organizer,Office Supplies,5,22.00,0.0000,110.00,8.00,40.00,70.00,Bank Transfer,Wholesale
+10383,ORD-10383,2025-02-20,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-009,Hardcover Notebook Set,Office Supplies,5,18.50,0.1000,83.25,7.00,35.00,48.25,PayPal,Retail
+10384,ORD-10384,2025-02-23,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-002,Bluetooth Keyboard,Electronics,5,69.00,0.0000,345.00,32.00,160.00,185.00,Debit Card,Online
+10385,ORD-10385,2025-02-26,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-015,Monitor Stand,Furniture,5,38.00,0.0000,190.00,16.00,80.00,110.00,Credit Card,Wholesale
+10386,ORD-10386,2025-03-01,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-008,Filing Cabinet,Furniture,1,159.00,0.1000,143.10,98.00,98.00,45.10,Credit Card,Retail
+10387,ORD-10387,2025-03-04,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-001,Wireless Mouse,Electronics,1,29.99,0.0000,29.99,12.00,12.00,17.99,Bank Transfer,Online
+10388,ORD-10388,2025-03-07,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-015,Monitor Stand,Furniture,1,38.00,0.1500,32.30,16.00,16.00,16.30,PayPal,Wholesale
+10389,ORD-10389,2025-03-10,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-008,Filing Cabinet,Furniture,1,159.00,0.0500,151.05,98.00,98.00,53.05,Debit Card,Retail
+10390,ORD-10390,2025-03-13,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-001,Wireless Mouse,Electronics,1,29.99,0.0000,29.99,12.00,12.00,17.99,Credit Card,Online
+10391,ORD-10391,2025-03-16,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-014,Webcam HD,Electronics,1,79.00,0.1000,71.10,41.00,41.00,30.10,Credit Card,Online
+10392,ORD-10392,2025-03-19,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-007,LED Desk Lamp,Furniture,1,42.50,0.0000,42.50,18.00,18.00,24.50,Bank Transfer,Wholesale
+10393,ORD-10393,2025-03-22,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-020,Laptop Sleeve,Accessories,2,27.50,0.0000,55.00,11.00,22.00,33.00,PayPal,Retail
+10394,ORD-10394,2025-03-25,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-013,Portable SSD 1TB,Electronics,2,109.00,0.1000,196.20,68.00,136.00,60.20,Debit Card,Online
+10395,ORD-10395,2025-03-28,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-006,Compact Desk,Furniture,2,189.00,0.0000,378.00,110.00,220.00,158.00,Credit Card,Wholesale
+10396,ORD-10396,2025-03-31,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.1500,19.55,3.75,7.50,12.05,Credit Card,Retail
+10397,ORD-10397,2025-04-03,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-013,Portable SSD 1TB,Electronics,2,109.00,0.0500,207.10,68.00,136.00,71.10,Bank Transfer,Online
+10398,ORD-10398,2025-04-06,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-006,Compact Desk,Furniture,2,189.00,0.0000,378.00,110.00,220.00,158.00,PayPal,Wholesale
+10399,ORD-10399,2025-04-09,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.1000,20.70,3.75,7.50,13.20,Debit Card,Retail
+10400,ORD-10400,2025-04-12,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-012,Desktop Calculator,Office Supplies,3,24.00,0.0000,72.00,9.50,28.50,43.50,Credit Card,Online
+10401,ORD-10401,2025-04-15,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-005,Ergonomic Chair,Furniture,3,249.00,0.0000,747.00,145.00,435.00,312.00,Credit Card,Wholesale
+10402,ORD-10402,2025-04-18,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-018,Bookshelf,Furniture,3,129.00,0.1000,348.30,76.00,228.00,120.30,Bank Transfer,Retail
+10403,ORD-10403,2025-04-21,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-011,Printer Paper Ream,Office Supplies,3,12.25,0.0000,36.75,5.00,15.00,21.75,PayPal,Online
+10404,ORD-10404,2025-04-24,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-004,Noise-Canceling Headphones,Electronics,3,129.99,0.1500,331.47,72.00,216.00,115.47,Debit Card,Online
+10405,ORD-10405,2025-04-27,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-017,USB-C Charger,Electronics,3,34.99,0.0500,99.72,15.00,45.00,54.72,Credit Card,Wholesale
+10406,ORD-10406,2025-04-30,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-011,Printer Paper Ream,Office Supplies,3,12.25,0.0000,36.75,5.00,15.00,21.75,Credit Card,Retail
+10407,ORD-10407,2025-05-03,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-004,Noise-Canceling Headphones,Electronics,4,129.99,0.1000,467.96,72.00,288.00,179.96,Bank Transfer,Online
+10408,ORD-10408,2025-05-06,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-017,USB-C Charger,Electronics,4,34.99,0.0000,139.96,15.00,60.00,79.96,PayPal,Wholesale
+10409,ORD-10409,2025-05-09,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-010,Gel Pen Pack,Office Supplies,4,8.99,0.0000,35.96,2.50,10.00,25.96,Debit Card,Retail
+10410,ORD-10410,2025-05-12,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-003,USB-C Hub,Electronics,4,54.99,0.1000,197.96,26.00,104.00,93.96,Credit Card,Online
+10411,ORD-10411,2025-05-15,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-016,Desk Organizer,Office Supplies,4,22.00,0.0000,88.00,8.00,32.00,56.00,Credit Card,Wholesale
+10412,ORD-10412,2025-05-18,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.1500,62.90,7.00,28.00,34.90,Bank Transfer,Retail
+10413,ORD-10413,2025-05-21,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-002,Bluetooth Keyboard,Electronics,4,69.00,0.0500,262.20,32.00,128.00,134.20,PayPal,Online
+10414,ORD-10414,2025-05-24,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-015,Monitor Stand,Furniture,5,38.00,0.0000,190.00,16.00,80.00,110.00,Debit Card,Wholesale
+10415,ORD-10415,2025-05-27,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-009,Hardcover Notebook Set,Office Supplies,5,18.50,0.1000,83.25,7.00,35.00,48.25,Credit Card,Retail
+10416,ORD-10416,2025-05-30,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-002,Bluetooth Keyboard,Electronics,5,69.00,0.0000,345.00,32.00,160.00,185.00,Credit Card,Online
+10417,ORD-10417,2025-06-02,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-015,Monitor Stand,Furniture,5,38.00,0.0000,190.00,16.00,80.00,110.00,Bank Transfer,Online
+10418,ORD-10418,2025-06-05,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-008,Filing Cabinet,Furniture,5,159.00,0.1000,715.50,98.00,490.00,225.50,PayPal,Wholesale
+10419,ORD-10419,2025-06-08,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-001,Wireless Mouse,Electronics,5,29.99,0.0000,149.95,12.00,60.00,89.95,Debit Card,Retail
+10420,ORD-10420,2025-06-11,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-014,Webcam HD,Electronics,5,79.00,0.1500,335.75,41.00,205.00,130.75,Credit Card,Online
+10421,ORD-10421,2025-06-14,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-007,LED Desk Lamp,Furniture,1,42.50,0.0500,40.38,18.00,18.00,22.38,Credit Card,Wholesale
+10422,ORD-10422,2025-06-17,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-020,Laptop Sleeve,Accessories,1,27.50,0.0000,27.50,11.00,11.00,16.50,Bank Transfer,Retail
+10423,ORD-10423,2025-06-20,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-013,Portable SSD 1TB,Electronics,1,109.00,0.1000,98.10,68.00,68.00,30.10,PayPal,Online
+10424,ORD-10424,2025-06-23,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-007,LED Desk Lamp,Furniture,1,42.50,0.0000,42.50,18.00,18.00,24.50,Debit Card,Wholesale
+10425,ORD-10425,2025-06-26,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-020,Laptop Sleeve,Accessories,1,27.50,0.0000,27.50,11.00,11.00,16.50,Credit Card,Retail
+10426,ORD-10426,2025-06-29,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-013,Portable SSD 1TB,Electronics,1,109.00,0.1000,98.10,68.00,68.00,30.10,Credit Card,Online
+10427,ORD-10427,2025-07-02,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-006,Compact Desk,Furniture,1,189.00,0.0000,189.00,110.00,110.00,79.00,Bank Transfer,Wholesale
+10428,ORD-10428,2025-07-05,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-019,Sticky Notes Bundle,Office Supplies,2,11.50,0.1500,19.55,3.75,7.50,12.05,PayPal,Retail
+10429,ORD-10429,2025-07-08,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-012,Desktop Calculator,Office Supplies,2,24.00,0.0500,45.60,9.50,19.00,26.60,Debit Card,Online
+10430,ORD-10430,2025-07-11,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-005,Ergonomic Chair,Furniture,2,249.00,0.0000,498.00,145.00,290.00,208.00,Credit Card,Online
+10431,ORD-10431,2025-07-14,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-018,Bookshelf,Furniture,2,129.00,0.1000,232.20,76.00,152.00,80.20,Credit Card,Wholesale
+10432,ORD-10432,2025-07-17,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.0000,24.50,5.00,10.00,14.50,Bank Transfer,Retail
+10433,ORD-10433,2025-07-20,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-005,Ergonomic Chair,Furniture,2,249.00,0.0000,498.00,145.00,290.00,208.00,PayPal,Online
+10434,ORD-10434,2025-07-23,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-018,Bookshelf,Furniture,2,129.00,0.1000,232.20,76.00,152.00,80.20,Debit Card,Wholesale
+10435,ORD-10435,2025-07-26,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-011,Printer Paper Ream,Office Supplies,3,12.25,0.0000,36.75,5.00,15.00,21.75,Credit Card,Retail
+10436,ORD-10436,2025-07-29,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-004,Noise-Canceling Headphones,Electronics,3,129.99,0.1500,331.47,72.00,216.00,115.47,Credit Card,Online
+10437,ORD-10437,2025-08-01,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-017,USB-C Charger,Electronics,3,34.99,0.0500,99.72,15.00,45.00,54.72,Bank Transfer,Wholesale
+10438,ORD-10438,2025-08-04,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-010,Gel Pen Pack,Office Supplies,3,8.99,0.0000,26.97,2.50,7.50,19.47,PayPal,Retail
+10439,ORD-10439,2025-08-07,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-003,USB-C Hub,Electronics,3,54.99,0.1000,148.47,26.00,78.00,70.47,Debit Card,Online
+10440,ORD-10440,2025-08-10,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-016,Desk Organizer,Office Supplies,3,22.00,0.0000,66.00,8.00,24.00,42.00,Credit Card,Wholesale
+10441,ORD-10441,2025-08-13,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.0000,55.50,7.00,21.00,34.50,Credit Card,Retail
+10442,ORD-10442,2025-08-16,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-003,USB-C Hub,Electronics,4,54.99,0.1000,197.96,26.00,104.00,93.96,Bank Transfer,Online
+10443,ORD-10443,2025-08-19,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-016,Desk Organizer,Office Supplies,4,22.00,0.0000,88.00,8.00,32.00,56.00,PayPal,Online
+10444,ORD-10444,2025-08-22,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-009,Hardcover Notebook Set,Office Supplies,4,18.50,0.1500,62.90,7.00,28.00,34.90,Debit Card,Wholesale
+10445,ORD-10445,2025-08-25,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-002,Bluetooth Keyboard,Electronics,4,69.00,0.0500,262.20,32.00,128.00,134.20,Credit Card,Retail
+10446,ORD-10446,2025-08-28,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-015,Monitor Stand,Furniture,4,38.00,0.0000,152.00,16.00,64.00,88.00,Credit Card,Online
+10447,ORD-10447,2025-08-31,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-008,Filing Cabinet,Furniture,4,159.00,0.1000,572.40,98.00,392.00,180.40,Bank Transfer,Wholesale
+10448,ORD-10448,2025-09-03,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-001,Wireless Mouse,Electronics,4,29.99,0.0000,119.96,12.00,48.00,71.96,PayPal,Retail
+10449,ORD-10449,2025-09-06,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-014,Webcam HD,Electronics,5,79.00,0.0000,395.00,41.00,205.00,190.00,Debit Card,Online
+10450,ORD-10450,2025-09-09,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-007,LED Desk Lamp,Furniture,5,42.50,0.1000,191.25,18.00,90.00,101.25,Credit Card,Wholesale
+10451,ORD-10451,2025-09-12,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-001,Wireless Mouse,Electronics,5,29.99,0.0000,149.95,12.00,60.00,89.95,Credit Card,Retail
+10452,ORD-10452,2025-09-15,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-014,Webcam HD,Electronics,5,79.00,0.1500,335.75,41.00,205.00,130.75,Bank Transfer,Online
+10453,ORD-10453,2025-09-18,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-007,LED Desk Lamp,Furniture,5,42.50,0.0500,201.88,18.00,90.00,111.88,PayPal,Wholesale
+10454,ORD-10454,2025-09-21,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-020,Laptop Sleeve,Accessories,5,27.50,0.0000,137.50,11.00,55.00,82.50,Debit Card,Retail
+10455,ORD-10455,2025-09-24,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-013,Portable SSD 1TB,Electronics,5,109.00,0.1000,490.50,68.00,340.00,150.50,Credit Card,Online
+10456,ORD-10456,2025-09-27,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-006,Compact Desk,Furniture,1,189.00,0.0000,189.00,110.00,110.00,79.00,Credit Card,Online
+10457,ORD-10457,2025-09-30,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.0000,11.50,3.75,3.75,7.75,Bank Transfer,Wholesale
+10458,ORD-10458,2025-10-03,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-012,Desktop Calculator,Office Supplies,1,24.00,0.1000,21.60,9.50,9.50,12.10,PayPal,Retail
+10459,ORD-10459,2025-10-06,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-005,Ergonomic Chair,Furniture,1,249.00,0.0000,249.00,145.00,145.00,104.00,Debit Card,Online
+10460,ORD-10460,2025-10-09,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-019,Sticky Notes Bundle,Office Supplies,1,11.50,0.1500,9.78,3.75,3.75,6.03,Credit Card,Wholesale
+10461,ORD-10461,2025-10-12,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-012,Desktop Calculator,Office Supplies,1,24.00,0.0500,22.80,9.50,9.50,13.30,Credit Card,Retail
+10462,ORD-10462,2025-10-15,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-005,Ergonomic Chair,Furniture,1,249.00,0.0000,249.00,145.00,145.00,104.00,Bank Transfer,Online
+10463,ORD-10463,2025-10-18,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-018,Bookshelf,Furniture,2,129.00,0.1000,232.20,76.00,152.00,80.20,PayPal,Wholesale
+10464,ORD-10464,2025-10-21,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-011,Printer Paper Ream,Office Supplies,2,12.25,0.0000,24.50,5.00,10.00,14.50,Debit Card,Retail
+10465,ORD-10465,2025-10-24,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-004,Noise-Canceling Headphones,Electronics,2,129.99,0.0000,259.98,72.00,144.00,115.98,Credit Card,Online
+10466,ORD-10466,2025-10-27,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-017,USB-C Charger,Electronics,2,34.99,0.1000,62.98,15.00,30.00,32.98,Credit Card,Wholesale
+10467,ORD-10467,2025-10-30,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.0000,17.98,2.50,5.00,12.98,Bank Transfer,Retail
+10468,ORD-10468,2025-11-02,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-003,USB-C Hub,Electronics,2,54.99,0.1500,93.48,26.00,52.00,41.48,PayPal,Online
+10469,ORD-10469,2025-11-05,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-017,USB-C Charger,Electronics,2,34.99,0.0500,66.48,15.00,30.00,36.48,Debit Card,Online
+10470,ORD-10470,2025-11-08,CUST-006,Morgan Brooks,Small Business,Phoenix,Arizona,West,P-010,Gel Pen Pack,Office Supplies,3,8.99,0.0000,26.97,2.50,7.50,19.47,Credit Card,Wholesale
+10471,ORD-10471,2025-11-11,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-003,USB-C Hub,Electronics,3,54.99,0.1000,148.47,26.00,78.00,70.47,Credit Card,Retail
+10472,ORD-10472,2025-11-14,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-016,Desk Organizer,Office Supplies,3,22.00,0.0000,66.00,8.00,24.00,42.00,Bank Transfer,Online
+10473,ORD-10473,2025-11-17,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-009,Hardcover Notebook Set,Office Supplies,3,18.50,0.0000,55.50,7.00,21.00,34.50,PayPal,Wholesale
+10474,ORD-10474,2025-11-20,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-002,Bluetooth Keyboard,Electronics,3,69.00,0.1000,186.30,32.00,96.00,90.30,Debit Card,Retail
+10475,ORD-10475,2025-11-23,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-015,Monitor Stand,Furniture,3,38.00,0.0000,114.00,16.00,48.00,66.00,Credit Card,Online
+10476,ORD-10476,2025-11-26,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-008,Filing Cabinet,Furniture,3,159.00,0.1500,405.45,98.00,294.00,111.45,Credit Card,Wholesale
+10477,ORD-10477,2025-11-29,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-001,Wireless Mouse,Electronics,4,29.99,0.0500,113.96,12.00,48.00,65.96,Bank Transfer,Retail
+10478,ORD-10478,2025-12-02,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-015,Monitor Stand,Furniture,4,38.00,0.0000,152.00,16.00,64.00,88.00,PayPal,Online
+10479,ORD-10479,2025-12-05,CUST-010,Cameron Wilson,Small Business,Atlanta,Georgia,South,P-008,Filing Cabinet,Furniture,4,159.00,0.1000,572.40,98.00,392.00,180.40,Debit Card,Wholesale
+10480,ORD-10480,2025-12-08,CUST-017,Finley Walker,Small Business,Tampa,Florida,South,P-001,Wireless Mouse,Electronics,4,29.99,0.0000,119.96,12.00,48.00,71.96,Credit Card,Retail
+10481,ORD-10481,2025-12-11,CUST-004,Casey Patel,Consumer,Chicago,Illinois,Midwest,P-014,Webcam HD,Electronics,4,79.00,0.0000,316.00,41.00,164.00,152.00,Credit Card,Online
+10482,ORD-10482,2025-12-14,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-007,LED Desk Lamp,Furniture,4,42.50,0.1000,153.00,18.00,72.00,81.00,Bank Transfer,Online
+10483,ORD-10483,2025-12-17,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-020,Laptop Sleeve,Accessories,4,27.50,0.0000,110.00,11.00,44.00,66.00,PayPal,Wholesale
+10484,ORD-10484,2025-12-20,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-013,Portable SSD 1TB,Electronics,5,109.00,0.1500,463.25,68.00,340.00,123.25,Debit Card,Retail
+10485,ORD-10485,2025-12-23,CUST-013,Parker Nguyen,Consumer,San Diego,California,West,P-006,Compact Desk,Furniture,5,189.00,0.0500,897.75,110.00,550.00,347.75,Credit Card,Online
+10486,ORD-10486,2025-12-26,CUST-020,Sage Allen,Consumer,Baltimore,Maryland,Northeast,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.0000,57.50,3.75,18.75,38.75,Credit Card,Wholesale
+10487,ORD-10487,2025-12-29,CUST-007,Quinn Davis,Consumer,Miami,Florida,South,P-013,Portable SSD 1TB,Electronics,5,109.00,0.1000,490.50,68.00,340.00,150.50,Bank Transfer,Retail
+10488,ORD-10488,2024-01-02,CUST-014,Drew Martinez,Small Business,Nashville,Tennessee,South,P-006,Compact Desk,Furniture,5,189.00,0.0000,945.00,110.00,550.00,395.00,PayPal,Online
+10489,ORD-10489,2024-01-05,CUST-001,Avery Johnson,Consumer,Austin,Texas,South,P-019,Sticky Notes Bundle,Office Supplies,5,11.50,0.0000,57.50,3.75,18.75,38.75,Debit Card,Wholesale
+10490,ORD-10490,2024-01-08,CUST-008,Jamie Rivera,Consumer,Portland,Oregon,West,P-012,Desktop Calculator,Office Supplies,5,24.00,0.1000,108.00,9.50,47.50,60.50,Credit Card,Retail
+10491,ORD-10491,2024-01-11,CUST-015,Rowan Clark,Corporate,Philadelphia,Pennsylvania,Northeast,P-005,Ergonomic Chair,Furniture,1,249.00,0.0000,249.00,145.00,145.00,104.00,Credit Card,Online
+10492,ORD-10492,2024-01-14,CUST-002,Jordan Lee,Corporate,Seattle,Washington,West,P-018,Bookshelf,Furniture,1,129.00,0.1500,109.65,76.00,76.00,33.65,Bank Transfer,Wholesale
+10493,ORD-10493,2024-01-17,CUST-009,Alex Kim,Corporate,New York,New York,Northeast,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.0500,11.64,5.00,5.00,6.64,PayPal,Retail
+10494,ORD-10494,2024-01-20,CUST-016,Emerson Lewis,Consumer,Minneapolis,Minnesota,Midwest,P-004,Noise-Canceling Headphones,Electronics,1,129.99,0.0000,129.99,72.00,72.00,57.99,Debit Card,Online
+10495,ORD-10495,2024-01-23,CUST-003,Taylor Morgan,Small Business,Denver,Colorado,West,P-017,USB-C Charger,Electronics,1,34.99,0.1000,31.49,15.00,15.00,16.49,Credit Card,Online
+10496,ORD-10496,2024-01-26,CUST-011,Reese Thompson,Consumer,Columbus,Ohio,Midwest,P-011,Printer Paper Ream,Office Supplies,1,12.25,0.0000,12.25,5.00,5.00,7.25,Credit Card,Wholesale
+10497,ORD-10497,2024-01-29,CUST-018,Harper Hall,Consumer,San Jose,California,West,P-004,Noise-Canceling Headphones,Electronics,1,129.99,0.0000,129.99,72.00,72.00,57.99,Bank Transfer,Retail
+10498,ORD-10498,2024-02-01,CUST-005,Riley Chen,Corporate,Boston,Massachusetts,Northeast,P-017,USB-C Charger,Electronics,2,34.99,0.1000,62.98,15.00,30.00,32.98,PayPal,Online
+10499,ORD-10499,2024-02-04,CUST-012,Skylar Garcia,Corporate,Charlotte,North Carolina,South,P-010,Gel Pen Pack,Office Supplies,2,8.99,0.0000,17.98,2.50,5.00,12.98,Debit Card,Wholesale
+10500,ORD-10500,2024-02-07,CUST-019,Logan Young,Corporate,Detroit,Michigan,Midwest,P-003,USB-C Hub,Electronics,2,54.99,0.1500,93.48,26.00,52.00,41.48,Credit Card,Retail
